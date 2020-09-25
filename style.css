@@ -1,0 +1,6 @@
+@import './styles/global/layout.css';
+@import './styles/global/reset.css';
+@import './styles/global/style.css';
+@import './styles/parts/figure.css';
+@import './styles/parts/table-of-content.css';
+@import './styles/base/interface.css';

@@ -1,0 +1,45 @@
+/* TABLE OF CONTENT ---------------------------------------------------------------- */
+#toc a[href]::after {
+  content: target-counter(attr(href), page);
+  float: right; }
+
+#toc li {
+  overflow-x: hidden;
+  display: flex; }
+
+#toc li::after {
+  content: "                                    ";
+  float: left;
+  width: 0;
+  padding-left: 5px;
+  letter-spacing: 2px; }
+
+#toc li a::after {
+  position: absolute;
+  right: 0;
+  padding-left: 6px; }
+
+#toc li a {
+  right: 0; }
+
+/* list-counter */
+#toc {
+  counter-reset: numtoc; }
+
+#toc .chap {
+  counter-increment: numtoc; }
+
+#toc .chap::before {
+  content: counter(numtoc, decimal) ". ";
+  padding-right: 5px;
+  /* display: inline-block;
+    width: 45px; */ }
+
+#toc li {
+  margin-bottom: calc(var(--baseline)*1); }
+
+#toc-introduction {
+  margin-bottom: calc(var(--baseline)*1.5) !important; }
+
+#toc-colophon {
+  margin-top: calc(var(--baseline)*1.5) !important; }

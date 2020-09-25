@@ -1,6 +1,12 @@
-@import './styles/global/layout.css';
-@import './styles/global/reset.css';
-@import './styles/global/style.css';
-@import './styles/parts/figure.css';
-@import './styles/parts/table-of-content.css';
+
+/* pour afficher le chemin de fer dans le navigateur*/
 @import './styles/base/interface.css';
+
+/* pour mettre à zero le style par défaut */
+@import './styles/global/reset.css';
+
+/* pour l'impression (pdf) */
+@import './styles/global/layout.css';
+
+/* pour la typographie en général */
+@import './styles/global/style.css';

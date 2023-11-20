@@ -25,7 +25,7 @@
     }
     
     @top-left {
-      content: 'titre du chapitre';
+      content: string(chapTitle);
       vertical-align: top;
       padding-top: 25px; 
       padding-left: 50px;

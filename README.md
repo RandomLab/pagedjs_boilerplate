@@ -1,8 +1,22 @@
 # pagedjs_boilerplate
 
-# serveur http
-python -m http.server
+## lancer un serveur http avec python
 
-# autres 
-live-server 
-parcel
+```
+python -m http.server
+```
+
+## serveur http avec node
+
+```
+npm install -g live-server
+```
+```
+live-server
+```
+
+## pour aller plus loin
+
+### ajouter la gestion des césures
+
+### ajouter des notes dans la marge

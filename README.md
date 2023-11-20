@@ -1,6 +1,6 @@
-# pagedjs_boilerplate
+# un boilerplate pour débuter avec paged.js
 
-## lancer un serveur http avec python
+## lancer un serveur http avec python
 
 ```
 python -m http.server
@@ -19,4 +19,4 @@ live-server
 
 ### ajouter la gestion des césures
 
-### ajouter des notes dans la marge
+### ajouter des notes dans la marge

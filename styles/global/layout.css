@@ -5,6 +5,8 @@
     size: 148mm 210mm;
     margin-top: 100px;
     margin-bottom: 65px; 
+    marks: crop;
+    bleed: 3.18mm;
   }
   
   /* réglages des pages */

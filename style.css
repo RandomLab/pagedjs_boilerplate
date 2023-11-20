@@ -2,9 +2,6 @@
 /* pour afficher le chemin de fer dans le navigateur*/
 @import './styles/base/interface.css';
 
-/* pour mettre à zero le style par défaut */
-@import './styles/global/reset.css';
-
 /* pour l'impression (pdf) */
 @import './styles/global/layout.css';
 

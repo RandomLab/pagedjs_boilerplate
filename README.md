@@ -17,6 +17,9 @@ live-server
 
 ## pour aller plus loin
 
+## parser le mardown
+pandoc ajouter 
+
 ### ajouter la gestion des césures
 
 ### ajouter des notes dans la marge

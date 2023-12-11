@@ -1,6 +1,6 @@
 # Web2print
 
-## 2 dossiers de travail
+## 2 dossiers de travail
 
 1. BASE : fichiers html/css avec la bibliothèque javascript paged.js
 
@@ -30,7 +30,7 @@ Basé sur le boilerplate de Julien Taquet et la publication DTCC:
 https://gitlab.coko.foundation/pagedjs/pagedjs-book-template
 https://github.com/RandomLab/New_Pedagogical_online_offline_Realities.pub
 
-## Pré traitement du texte
+## Pré traitement du texte
 
 Avec pandoc :
 https://pandoc.org/
@@ -77,7 +77,7 @@ https://www.ghostscript.com/
 -dOverrideICC=true \
 input.pdf`
 
-#### compresser le pdf
+#### compresser le pdf
 
 - préréglages : printer, prepress, screen
 https://gist.github.com/guifromrio/6390547

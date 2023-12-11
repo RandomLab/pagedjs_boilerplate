@@ -1,6 +1,6 @@
 :root {
   font-size: 16pt;
-  --baseline: 22pt; 
+  --baseline: 22pt;
 }
 
 * {
@@ -15,12 +15,12 @@
   line-height: var(--baseline);
   margin-bottom: 12px;
   margin-top: calc(var(--baseline)*6);
-  margin-bottom: calc(var(--baseline)*2); 
+  margin-bottom: calc(var(--baseline)*2);
   string-set: chapTitle content(text);
 }
 
 p {
-  text-align: left; 
+  text-align: left;
 }
 
 img {
@@ -28,3 +28,26 @@ img {
   height: 100%;
 }
 
+/* micro typo (ne fonctionne que dans chrome) expé */
+.chapter p {
+  widows: 3;
+  orphans: 3;
+}
+
+p {
+  hyphens: auto;
+}
+
+/* saut de pages */
+
+.chapter h1 {
+  break-before: always;
+}
+
+.chapter p {
+  break-after: always;
+}
+
+figure {
+  break-inside: avoid;
+}

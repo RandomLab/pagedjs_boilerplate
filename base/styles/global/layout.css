@@ -1,35 +1,35 @@
 @media print {
-  
+
   /* réglages du livre */
   @page {
     size: 148mm 210mm;
     margin-top: 100px;
-    margin-bottom: 65px; 
+    margin-bottom: 65px;
     marks: crop;
     bleed: 3.18mm;
   }
-  
+
   /* réglages des pages */
-  
+
   /* page de droite */
   @page :right {
     margin-left: 20mm;
     margin-right: 20mm;
-    
+
     /* folio */
-    
+
     @top-left-corner {
       content: counter(page);
       vertical-align: top;
-      padding-top: 25px; 
+      padding-top: 25px;
     }
-    
+
     @top-left {
       content: string(chapTitle);
       vertical-align: top;
-      padding-top: 25px; 
+      padding-top: 25px;
       padding-left: 50px;
-    } 
+    }
   }
 
   /* page de gauche */
@@ -48,51 +48,26 @@
     @top-right {
       content: 'titre du livre';
       vertical-align: top;
-      padding-top: 25px; 
+      padding-top: 25px;
       padding-right: 50px;
-    } 
-  }
-
-  
-  /* saut de pages */
-  
-  .chapter h1 {
-    break-before: always;
-  }
-
-  .chapter p {
-    break-after: always;
-  }
-
-  figure {
-    break-inside: avoid; 
+    }
   }
 
   /* pages blanches */
   @page :blank {
-  
+
     @top-left-corner {
-      content: none; 
+      content: none;
     }
-  
+
     @top-left {
-      content: none; 
+      content: none;
     }
-  
+
     @top-right-corner {
-      content: none; 
+      content: none;
     }
-  
+
     @top-right {
-      content: none; } 
+      content: none; }
     }
-  
-  /* micro typo (ne fonctionne que dans chrome) expé */
-  .chapter p {
-    widows: 3;
-    orphans: 3; 
-  }
- 
-  p {
-    hyphens: auto; 
-  }

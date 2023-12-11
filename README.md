@@ -45,6 +45,9 @@ https://github.com/RandomLab/memoires.sh
 
 ## Post traitement
 
+## parser le mardown
+pandoc ajouter 
+
 ### ajouter la gestion des césures
 hyphenopoly
 https://github.com/mnater/Hyphenopoly
